@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q9S-zM-cc5">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contaminación del Aire-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProyectoFinalTSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WV-Tk-RPf">
+                                <rect key="frame" x="108" y="143" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wCh-Cw-qBF">
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PEf-2l-F1a">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="884.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pAS-XB-hJr">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="130" id="amt-GR-tjO"/>
+                                                </constraints>
+                                                <attributedString key="attributedText">
+                                                    <fragment>
+                                                        <string key="content">Consiste en la presencia de materias o formas de energía en el aire que pueden suponer un riesgo, daño o molestia de diferente gravedad para los seres vivos. 
+</string>
+                                                        <attributes>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="1" paragraphSpacingBefore="1" headIndent="3" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="0.0" height="3"/>
+                                                <string key="userLabel">La contaminación atmosférica consiste en la presencia de materias o formas de energía en el aire que pueden suponer un riesgo, daño o molestia de diferente gravedad para los seres vivos.</string>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImagenFabricas" translatesAutoresizingMaskIntoConstraints="NO" id="v1a-Ke-wBe">
+                                                <rect key="frame" x="0.0" y="130" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="SB4-EO-Ke5"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B5Y-JC-f1X">
+                                                <rect key="frame" x="0.0" y="330" width="414" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="AiS-9O-ESU"/>
+                                                </constraints>
+                                                <string key="text">Las consecuencias son el desarrollo  de enfermedades y afecciones en las personas y la biodiversidad, así como la pérdida de visibilidad en zonas de grandes concentraciones o la aparición de olores desagradables.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImagenPres" translatesAutoresizingMaskIntoConstraints="NO" id="bj1-2a-MDF">
+                                                <rect key="frame" x="0.0" y="450" width="414" height="300"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="300" id="ebI-el-3lS"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgK-gN-j8X">
+                                                <rect key="frame" x="0.0" y="750" width="414" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="Uma-HK-1Fe"/>
+                                                </constraints>
+                                                <string key="text">Las personas con enfermedades del corazón o de pulmón, los adultos de más edad y los niños tienen mayor riesgo de tener problemas por la contaminación del aire.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvP-X5-PND">
+                                                <rect key="frame" x="0.0" y="850" width="414" height="34.5"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Causas" cornerStyle="capsule">
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="hxN-bC-omc" kind="show" id="Jh0-yb-ntn"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="PEf-2l-F1a" firstAttribute="width" secondItem="MCG-or-ALF" secondAttribute="width" id="1op-VH-Cbw"/>
+                                    <constraint firstItem="PEf-2l-F1a" firstAttribute="leading" secondItem="FFF-yK-WRp" secondAttribute="leading" id="EtD-rm-gtz"/>
+                                    <constraint firstItem="PEf-2l-F1a" firstAttribute="top" secondItem="FFF-yK-WRp" secondAttribute="top" id="eyn-u8-tif"/>
+                                    <constraint firstItem="PEf-2l-F1a" firstAttribute="bottom" secondItem="FFF-yK-WRp" secondAttribute="bottom" id="k62-Gk-f2e"/>
+                                    <constraint firstItem="PEf-2l-F1a" firstAttribute="trailing" secondItem="FFF-yK-WRp" secondAttribute="trailing" id="oR0-qx-u9m"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="FFF-yK-WRp"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="MCG-or-ALF"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wCh-Cw-qBF" secondAttribute="trailing" id="34r-N8-NKi"/>
+                            <constraint firstItem="wCh-Cw-qBF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="b5l-5Y-pwd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wCh-Cw-qBF" secondAttribute="bottom" id="sxa-WV-Jcq"/>
+                            <constraint firstItem="wCh-Cw-qBF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="y42-t2-4cv"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Contaminación del Aire" id="rx3-Cy-TUs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1069.5652173913045" y="2.6785714285714284"/>
+        </scene>
+        <!--Causas-->
+        <scene sceneID="7Sr-7P-XX4">
+            <objects>
+                <viewController id="hxN-bC-omc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UP0-fr-pnN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ByZ-12-3qM">
+                                <rect key="frame" x="111" y="134" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QdH-6M-doM">
+                                <rect key="frame" x="0.0" y="92" width="414" height="770"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="132" translatesAutoresizingMaskIntoConstraints="NO" id="5d9-Hm-26b">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="3007.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1. Uso excesivo de automóviles y otros medios de transporte impulsados por gasolina y diesel." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IXK-Oi-e7q">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="JGA-ma-Z0r"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="causas3" translatesAutoresizingMaskIntoConstraints="NO" id="SY0-8x-j3h">
+                                                <rect key="frame" x="0.0" y="192" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="MKk-Bh-Wfd"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePB-3x-pFk">
+                                                <rect key="frame" x="0.0" y="524" width="414" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="PPc-uO-cvn"/>
+                                                </constraints>
+                                                <string key="text">Los vehículos de emiten gases que atrapan calor en la atmósfera y por tanto contribuyen al calentamiento global, predominantemente dióxido de carbono.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2. Tala excesiva de árboles." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQb-ET-b4b">
+                                                <rect key="frame" x="0.0" y="756" width="414" height="30"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="30" id="utg-Vx-Ln7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="causas4" translatesAutoresizingMaskIntoConstraints="NO" id="j49-qo-a8P">
+                                                <rect key="frame" x="0.0" y="918" width="414" height="210"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="210" id="WYa-z0-elj"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cuu-Rr-c3q">
+                                                <rect key="frame" x="0.0" y="1260" width="414" height="100"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="100" id="gnh-TA-vP4"/>
+                                                </constraints>
+                                                <string key="text">El calentamiento global es una de las principales consecuencias de la deforestación, dado que, sin árboles, el CO2 permanece en la atmósfera.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3. Emisiones y vertidos industriales a la atmósfera y a la hidrósfera." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JF6-FV-FAj">
+                                                <rect key="frame" x="0.0" y="1492" width="414" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="It7-cW-g5a"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="causas2" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-nd-d78">
+                                                <rect key="frame" x="0.0" y="1684" width="414" height="200"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="3QW-SQ-Nr0"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aIl-aY-pzc">
+                                                <rect key="frame" x="0.0" y="2016" width="414" height="81.5"/>
+                                                <string key="text">Cuando llegan a la naturaleza se supone una gran amenaza a los ecosistemas, ya que una de las consecuencias de no tratarlos adecuadamente son los gases tóxicos para los seres vivos.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4. Extracción, procesamiento y refinamiento de combustibles fósiles." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMa-Ll-X14">
+                                                <rect key="frame" x="0.0" y="2229.5" width="414" height="41"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="causas5" translatesAutoresizingMaskIntoConstraints="NO" id="SEb-NH-0NB">
+                                                <rect key="frame" x="0.0" y="2402.5" width="414" height="225"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o60-g0-GxC">
+                                                <rect key="frame" x="0.0" y="2759.5" width="414" height="81.5"/>
+                                                <string key="text">La quema de combustibles fósiles hace daño a nuestra salud directamente al producir contaminantes, e indirectamente al producir gases de efecto invernadero.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LxO-cz-WsZ">
+                                                <rect key="frame" x="0.0" y="2973" width="414" height="34.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="150" id="Hvx-wF-pAS"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Posibles Soluciones" cornerStyle="capsule">
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <segue destination="Hx9-iv-VRw" kind="show" id="Y4R-A9-54E"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="vHh-nd-d78" secondAttribute="trailing" id="60A-xm-icV"/>
+                                            <constraint firstItem="SY0-8x-j3h" firstAttribute="leading" secondItem="5d9-Hm-26b" secondAttribute="leading" id="BpE-eU-wdy"/>
+                                            <constraint firstAttribute="trailing" secondItem="SY0-8x-j3h" secondAttribute="trailing" id="MkA-W8-W03"/>
+                                            <constraint firstItem="vHh-nd-d78" firstAttribute="leading" secondItem="5d9-Hm-26b" secondAttribute="leading" id="TXh-YR-u0b"/>
+                                            <constraint firstAttribute="trailing" secondItem="j49-qo-a8P" secondAttribute="trailing" id="YR3-CM-eFB"/>
+                                            <constraint firstItem="SEb-NH-0NB" firstAttribute="leading" secondItem="5d9-Hm-26b" secondAttribute="leading" id="afY-31-Y6r"/>
+                                            <constraint firstAttribute="trailing" secondItem="SEb-NH-0NB" secondAttribute="trailing" id="mV3-Ay-6We"/>
+                                            <constraint firstItem="j49-qo-a8P" firstAttribute="leading" secondItem="5d9-Hm-26b" secondAttribute="leading" id="qpa-NX-wX7"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="5d9-Hm-26b" firstAttribute="leading" secondItem="gJj-ig-3Li" secondAttribute="leading" id="0kC-AE-xnH"/>
+                                    <constraint firstItem="5d9-Hm-26b" firstAttribute="bottom" secondItem="gJj-ig-3Li" secondAttribute="bottom" id="7ah-YO-Upz"/>
+                                    <constraint firstItem="5d9-Hm-26b" firstAttribute="top" secondItem="gJj-ig-3Li" secondAttribute="top" id="Kuo-B2-kKY"/>
+                                    <constraint firstItem="5d9-Hm-26b" firstAttribute="trailing" secondItem="gJj-ig-3Li" secondAttribute="trailing" id="fct-PG-KaI"/>
+                                    <constraint firstItem="5d9-Hm-26b" firstAttribute="width" secondItem="NGd-9F-Cgt" secondAttribute="width" id="nxF-1P-dzq"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="gJj-ig-3Li"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="NGd-9F-Cgt"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eJf-j2-fSi"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="QdH-6M-doM" firstAttribute="bottom" secondItem="eJf-j2-fSi" secondAttribute="bottom" id="R57-nT-FMh"/>
+                            <constraint firstItem="QdH-6M-doM" firstAttribute="leading" secondItem="eJf-j2-fSi" secondAttribute="leading" id="oHA-om-tDC"/>
+                            <constraint firstItem="eJf-j2-fSi" firstAttribute="top" secondItem="QdH-6M-doM" secondAttribute="top" id="rLJ-mg-mFG"/>
+                            <constraint firstItem="eJf-j2-fSi" firstAttribute="trailing" secondItem="QdH-6M-doM" secondAttribute="trailing" id="uRl-vB-xoz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Causas" id="q8p-mk-WJK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5V9-gX-YMy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1807.2463768115942" y="3.3482142857142856"/>
+        </scene>
+        <!--Posibles Soluciones-->
+        <scene sceneID="jdR-xC-mC2">
+            <objects>
+                <viewController id="Q4p-BA-8ap" customClass="ViewControllerSoluciones" customModule="ProyectoFinalTSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="T22-J0-tYQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94R-xa-NT3">
+                                <rect key="frame" x="95" y="807" width="224" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Nivel de Contaminación" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="Hx9-iv-VRw" kind="show" id="SKc-9O-0gl"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q1b-yr-yNr">
+                                <rect key="frame" x="0.0" y="48" width="414" height="749"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="156" id="jMZ-6l-eZv">
+                                        <rect key="frame" x="0.0" y="50" width="414" height="156"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jMZ-6l-eZv" id="wo4-AF-evv" customClass="CustomTableViewCell" customModule="ProyectoFinalTSC" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="156"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkp-D9-PjZ">
+                                                    <rect key="frame" x="160" y="21" width="224" height="114"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WlZ-Ml-RmY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="156"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="nUX-pF-iu4"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="WlZ-Ml-RmY" firstAttribute="leading" secondItem="wo4-AF-evv" secondAttribute="leading" id="8TJ-lS-Odn"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rkp-D9-PjZ" secondAttribute="trailing" constant="10" id="UoD-N2-IIn"/>
+                                                <constraint firstItem="WlZ-Ml-RmY" firstAttribute="top" secondItem="wo4-AF-evv" secondAttribute="top" id="WeF-NP-6lK"/>
+                                                <constraint firstAttribute="bottom" secondItem="WlZ-Ml-RmY" secondAttribute="bottom" id="Z7h-nX-aDR"/>
+                                                <constraint firstItem="rkp-D9-PjZ" firstAttribute="leading" secondItem="WlZ-Ml-RmY" secondAttribute="trailing" constant="10" id="phA-AS-YKP"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="rkp-D9-PjZ" secondAttribute="bottom" constant="10" id="ptZ-XV-1mG"/>
+                                                <constraint firstItem="rkp-D9-PjZ" firstAttribute="top" secondItem="wo4-AF-evv" secondAttribute="topMargin" constant="10" id="sU8-a0-Zn2"/>
+                                            </constraints>
+                                            <connections>
+                                                <outlet property="iconImageView" destination="WlZ-Ml-RmY" id="aUb-sj-cxu"/>
+                                                <outlet property="label" destination="rkp-D9-PjZ" id="Tfj-Ro-bFY"/>
+                                            </connections>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NBS-ip-YWP"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="94R-xa-NT3" firstAttribute="top" secondItem="Q1b-yr-yNr" secondAttribute="bottom" constant="10" id="2zV-hB-wg8"/>
+                            <constraint firstItem="Q1b-yr-yNr" firstAttribute="top" secondItem="NBS-ip-YWP" secondAttribute="top" id="6uJ-gK-sxg"/>
+                            <constraint firstItem="Q1b-yr-yNr" firstAttribute="leading" secondItem="NBS-ip-YWP" secondAttribute="leading" id="70y-VI-f48"/>
+                            <constraint firstItem="NBS-ip-YWP" firstAttribute="bottom" secondItem="94R-xa-NT3" secondAttribute="bottom" constant="20" id="81C-5n-KuP"/>
+                            <constraint firstItem="NBS-ip-YWP" firstAttribute="trailing" secondItem="Q1b-yr-yNr" secondAttribute="trailing" id="CHd-wb-FxL"/>
+                            <constraint firstItem="NBS-ip-YWP" firstAttribute="trailing" secondItem="94R-xa-NT3" secondAttribute="trailing" constant="95" id="dTP-oj-eR9"/>
+                            <constraint firstItem="94R-xa-NT3" firstAttribute="leading" secondItem="NBS-ip-YWP" secondAttribute="leading" constant="95" id="gpR-70-O2I"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Posibles Soluciones" id="4cC-iZ-U7B"/>
+                    <connections>
+                        <outlet property="tableSoluciones" destination="Q1b-yr-yNr" id="ByH-in-dPw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJU-W2-eOb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2505.7971014492755" y="2.6785714285714284"/>
+        </scene>
+        <!--View Controller Function-->
+        <scene sceneID="txi-YF-38j">
+            <objects>
+                <viewController id="Hx9-iv-VRw" customClass="ViewControllerFunction" customModule="ProyectoFinalTSC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Oj-YA-SNJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvf-7G-0Yw">
+                                <rect key="frame" x="75" y="307" width="264" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Aire CDMX" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="safari:" destination="Hx9-iv-VRw" eventType="touchUpInside" id="yYd-Jy-Gg3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BebederosFES" translatesAutoresizingMaskIntoConstraints="NO" id="q6e-b1-OYM">
+                                <rect key="frame" x="0.0" y="492" width="414" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="XME-qq-BlB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por medio de la página de Aire de la Zona Metropolitana se puede conocer sobre la escala de contaminación del aire actual." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8J-zC-V5L">
+                                <rect key="frame" x="20" y="177" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="lYN-Xb-d1c"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Para reducir nuestra huella de carbono se muestra el mapa con las ubicaciones dentro de la FES de los bebederos" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiI-xx-DYs">
+                                <rect key="frame" x="20" y="382" width="374" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="5Cp-yf-xS4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cv9-Nl-ctg">
+                                <rect key="frame" x="75" y="122" width="264" height="35"/>
+                                <color key="tintColor" systemColor="systemGrayColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Índice Calidad del Aire" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" systemColor="systemGrayColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="NRQ-Tl-01t" kind="presentation" id="TmI-it-qot"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnk-sD-gVS">
+                                <rect key="frame" x="120" y="787" width="174" height="35"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Compartir Mapa" cornerStyle="capsule">
+                                    <color key="baseBackgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="compartir:" destination="Hx9-iv-VRw" eventType="touchUpInside" id="fv1-as-3Jp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zyR-li-6uy"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="zyR-li-6uy" firstAttribute="trailing" secondItem="fvf-7G-0Yw" secondAttribute="trailing" constant="75" id="CZB-d1-lPW"/>
+                            <constraint firstItem="LiI-xx-DYs" firstAttribute="leading" secondItem="zyR-li-6uy" secondAttribute="leading" constant="20" id="G5b-L9-lMC"/>
+                            <constraint firstItem="zyR-li-6uy" firstAttribute="trailing" secondItem="wnk-sD-gVS" secondAttribute="trailing" constant="120" id="KQ5-sn-vYg"/>
+                            <constraint firstItem="q6e-b1-OYM" firstAttribute="trailing" secondItem="zyR-li-6uy" secondAttribute="trailing" id="L19-AS-5s5"/>
+                            <constraint firstItem="zyR-li-6uy" firstAttribute="bottom" secondItem="wnk-sD-gVS" secondAttribute="bottom" constant="40" id="Mqe-40-LIC"/>
+                            <constraint firstItem="cv9-Nl-ctg" firstAttribute="top" secondItem="zyR-li-6uy" secondAttribute="top" constant="30" id="Nfg-5V-DXD"/>
+                            <constraint firstItem="fvf-7G-0Yw" firstAttribute="top" secondItem="o8J-zC-V5L" secondAttribute="bottom" constant="30" id="Q52-Px-bm3"/>
+                            <constraint firstItem="o8J-zC-V5L" firstAttribute="leading" secondItem="6Oj-YA-SNJ" secondAttribute="leading" constant="20" id="QM3-ip-3lX"/>
+                            <constraint firstItem="cv9-Nl-ctg" firstAttribute="leading" secondItem="zyR-li-6uy" secondAttribute="leading" constant="75" id="aux-j0-jZh"/>
+                            <constraint firstItem="fvf-7G-0Yw" firstAttribute="leading" secondItem="zyR-li-6uy" secondAttribute="leading" constant="75" id="cGV-Qg-RaV"/>
+                            <constraint firstAttribute="trailing" secondItem="o8J-zC-V5L" secondAttribute="trailing" constant="20" id="e1r-IC-RAZ"/>
+                            <constraint firstItem="LiI-xx-DYs" firstAttribute="top" secondItem="fvf-7G-0Yw" secondAttribute="bottom" constant="40" id="f5i-RM-H0F"/>
+                            <constraint firstItem="zyR-li-6uy" firstAttribute="trailing" secondItem="cv9-Nl-ctg" secondAttribute="trailing" constant="75" id="hXd-nR-RfF"/>
+                            <constraint firstItem="q6e-b1-OYM" firstAttribute="leading" secondItem="zyR-li-6uy" secondAttribute="leading" id="hpZ-23-xnK"/>
+                            <constraint firstItem="wnk-sD-gVS" firstAttribute="leading" secondItem="zyR-li-6uy" secondAttribute="leading" constant="120" id="oTt-00-tnG"/>
+                            <constraint firstItem="o8J-zC-V5L" firstAttribute="top" secondItem="cv9-Nl-ctg" secondAttribute="bottom" constant="20" id="px1-9V-rI6"/>
+                            <constraint firstItem="q6e-b1-OYM" firstAttribute="top" secondItem="LiI-xx-DYs" secondAttribute="bottom" constant="20" id="qsm-nk-aGX"/>
+                            <constraint firstItem="zyR-li-6uy" firstAttribute="trailing" secondItem="LiI-xx-DYs" secondAttribute="trailing" constant="20" id="sM2-Uh-zWj"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rX0-GP-Ao1"/>
+                    <connections>
+                        <outlet property="imagenFes" destination="q6e-b1-OYM" id="Jrr-Za-QJs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdF-dE-Y85" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3215.9420289855075" y="2.6785714285714284"/>
+        </scene>
+        <!--Índice Calidad del Aire-->
+        <scene sceneID="a7l-lD-ECz">
+            <objects>
+                <viewController title="Índice Calidad del Aire" id="NRQ-Tl-01t" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FRZ-wb-enW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Índice Calidad  del Aire" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hSR-vY-ocU">
+                                <rect key="frame" x="120" y="78" width="174" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d88-vs-BWS">
+                                <rect key="frame" x="20" y="174" width="374" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="zoG-Kd-UnY"/>
+                                </constraints>
+                                <string key="text">Para que la población pueda saber si los niveles de contaminación del aire sin satisfactorios o no, se estableció una unidad de medida denominada índice de la calidad del aire. (IMECA)</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A partir de lo anterior se estalbeció la siguiente escala:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ji3-L6-8gy">
+                                <rect key="frame" x="20" y="304" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ezN-BF-sxV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CzT-lO-KhT">
+                                <rect key="frame" x="20" y="608" width="374" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="D8S-IL-7pQ"/>
+                                </constraints>
+                                <string key="text">Buena: Debajo de los 50.
+Moderada: 51 - 100.
+Dañina pra grupos sensibles: 101 - 150.
+Dañina a la salud: 150 - 200.
+Peligrosa: Mayor a los 200.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="escala" translatesAutoresizingMaskIntoConstraints="NO" id="nVh-eq-ue1">
+                                <rect key="frame" x="20" y="384" width="374" height="194"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="194" id="5yM-8a-ffX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="e8A-vv-1bk"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="e8A-vv-1bk" firstAttribute="trailing" secondItem="hSR-vY-ocU" secondAttribute="trailing" constant="120" id="7gw-ap-8B5"/>
+                            <constraint firstItem="e8A-vv-1bk" firstAttribute="bottom" secondItem="CzT-lO-KhT" secondAttribute="bottom" constant="80" id="8kL-LZ-pDy"/>
+                            <constraint firstItem="ji3-L6-8gy" firstAttribute="leading" secondItem="e8A-vv-1bk" secondAttribute="leading" constant="20" id="Dne-1W-lmm"/>
+                            <constraint firstItem="CzT-lO-KhT" firstAttribute="top" secondItem="nVh-eq-ue1" secondAttribute="bottom" constant="30" id="IZM-p7-9fR"/>
+                            <constraint firstItem="d88-vs-BWS" firstAttribute="leading" secondItem="e8A-vv-1bk" secondAttribute="leading" constant="20" id="LrI-Zv-QCs"/>
+                            <constraint firstItem="e8A-vv-1bk" firstAttribute="trailing" secondItem="nVh-eq-ue1" secondAttribute="trailing" constant="20" id="O03-mJ-me5"/>
+                            <constraint firstItem="ji3-L6-8gy" firstAttribute="top" secondItem="d88-vs-BWS" secondAttribute="bottom" constant="30" id="TP7-yl-LEQ"/>
+                            <constraint firstItem="e8A-vv-1bk" firstAttribute="trailing" secondItem="CzT-lO-KhT" secondAttribute="trailing" constant="20" id="Ueu-OC-dwu"/>
+                            <constraint firstAttribute="trailing" secondItem="d88-vs-BWS" secondAttribute="trailing" constant="20" id="ZNX-B3-jjP"/>
+                            <constraint firstItem="CzT-lO-KhT" firstAttribute="leading" secondItem="e8A-vv-1bk" secondAttribute="leading" constant="20" id="a7t-ss-0pk"/>
+                            <constraint firstItem="hSR-vY-ocU" firstAttribute="top" secondItem="e8A-vv-1bk" secondAttribute="top" constant="30" id="hbD-Zi-GFM"/>
+                            <constraint firstItem="d88-vs-BWS" firstAttribute="top" secondItem="hSR-vY-ocU" secondAttribute="bottom" constant="60" id="iTt-gz-hMj"/>
+                            <constraint firstItem="nVh-eq-ue1" firstAttribute="top" secondItem="ji3-L6-8gy" secondAttribute="bottom" constant="30" id="jbe-bC-65t"/>
+                            <constraint firstAttribute="trailing" secondItem="ji3-L6-8gy" secondAttribute="trailing" constant="20" id="jsX-ci-ve8"/>
+                            <constraint firstItem="hSR-vY-ocU" firstAttribute="leading" secondItem="e8A-vv-1bk" secondAttribute="leading" constant="120" id="thU-3f-QNj"/>
+                            <constraint firstItem="nVh-eq-ue1" firstAttribute="leading" secondItem="e8A-vv-1bk" secondAttribute="leading" constant="20" id="y0i-lV-eYS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lqg-dR-4EC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A7n-gD-ZFS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3942.0289855072465" y="2.6785714285714284"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cnW-KC-X94">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q9S-zM-cc5" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Xh-hm-1IA">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="VRg-wf-1NF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ykB-8s-mAa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.64122137404578" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Y4R-A9-54E"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="BebederosFES" width="1186" height="672"/>
+        <image name="ImagenFabricas" width="2000" height="1125"/>
+        <image name="ImagenPres" width="996" height="996"/>
+        <image name="causas2" width="351" height="480"/>
+        <image name="causas3" width="482" height="260"/>
+        <image name="causas4" width="282" height="178"/>
+        <image name="causas5" width="225" height="225"/>
+        <image name="escala" width="952" height="495"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
