@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  ProyectoFinalTSC
-//
-//  Created by user224015 on 11/22/22.
-//
-
 import UIKit
 
 @main

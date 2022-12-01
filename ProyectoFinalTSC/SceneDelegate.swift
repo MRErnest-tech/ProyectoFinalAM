@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  ProyectoFinalTSC
-//
-//  Created by user224015 on 11/22/22.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
